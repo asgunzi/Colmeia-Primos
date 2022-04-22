@@ -16,7 +16,10 @@
 
       <h1><a href="https://ideiasesquecidas.com"> <img src=	"https://ideiasesquecidas.files.wordpress.com/2020/03/forgottenlogo.png" width="90" height = "50"></a>A colmeia dos números primos</h1>
 
-Núm. camadas:
+<h2> Visualização de números primos num formato de colmeia. Para a teoria, vide <a href="https://ideiasesquecidas.com/2022/04/22/a-colmeia-dos-numeros-primos/">  aqui. </a> <h2> 
+
+
+<h3> Núm. camadas: </h3>
 <form>
 		  <select onchange = "Desenhar()" name="Camadas" id="SelectCamadas">
 		    
@@ -30,6 +33,11 @@ Núm. camadas:
 		    <option value="8">8</option>			
 		    <option value="9">9</option>			
 		    <option value="10">10</option>			
+			<option value="11">11</option>			
+			<option value="12">12</option>			
+			<option value="13">13</option>								
+			<option value="14">14</option>			
+			<option value="15">15</option>	
 		  </select>		  
 </form>
 		
@@ -41,8 +49,8 @@ Núm. camadas:
 <script type = "text/javascript">
     var svg = d3.select("body")
         .append("svg")
-        .attr("width", 1520)
-        .attr("height", 1100);
+        .attr("width", 1820)
+        .attr("height", 1500);
    
 	Desenhar();
 	
@@ -109,8 +117,8 @@ Núm. camadas:
 	var raio = 25;
 	var x;
 	var y;
-	var x0 = 500;
-	var y0 = 500;
+	var x0 = 700;
+	var y0 = 600;
 	var camada;
 	var numCamadas;
 	var raiz3 = 1.73205;
